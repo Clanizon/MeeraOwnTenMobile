@@ -17,11 +17,14 @@ html, body
     font-family: playregular;
     src: url(Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
+@media (mix-width:500px) 
+{
+    
+}
 .clearfix
 {
     clear: both;
 }
-
 .container
 {
     width: 100%;
