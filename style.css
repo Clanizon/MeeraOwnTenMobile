@@ -25,6 +25,9 @@ html, body
 {
     clear: both;
 }
+.hightcontain{
+    height:100vh
+}
 .container
 {
     width: 100%;
@@ -58,7 +61,7 @@ html, body
 }
 .set
 {
-    padding: 55px 100px;
+    padding: 5rem;
     position: relative;
 }
 .text1
@@ -127,4 +130,18 @@ label
     color: #772360;
     font-size: 14px;
     font-weight: bold;
+}
+.leftpart{
+    display: block;
+}
+@media (max-width: 600px) { 
+    .set{
+        padding: 3rem;
+    }
+    .leftpart{
+        display: none;
+    }
+    .rightpart{
+        background: #666666;
+    }
 }
