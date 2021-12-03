@@ -64,12 +64,17 @@ html, body
     padding: 5rem;
     position: relative;
 }
+.set1
+{
+    
+}
 .text1
 {
     color: #000000;
     font-size: 32px;
     font-weight: 600;
-    line-height: 1.5;  
+    line-height: 1.5; 
+    margin: 0 auto; 
 }
 input 
 {
@@ -98,14 +103,14 @@ label
 {
     position: absolute;
     right: 3px;
-    bottom: 37px;
+    bottom: 10px;
     width: 10px;
     height: 10px;
 }
 .button 
 {
     background-color: #772360;
-    padding: 13px 0;
+    padding: 8px 0;
     margin: 26px 0;
     border: none;
     border-radius: 20px;
